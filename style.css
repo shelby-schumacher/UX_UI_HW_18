@@ -1,0 +1,86 @@
+.nav {
+font-family: sans-serif,"Arial";
+}
+
+header {
+background-color: #CFE2F3;
+height: 50px;
+}
+
+.navigation {
+display:flex;
+list-style: none;
+width: 100%;
+justify-content:flex-end;
+justify-content:space-around;
+padding: 15px
+}
+
+.Home{
+font-weight:bold;
+text-decoration: underline;
+}
+
+
+.aboutStyling {
+display: flex;
+justify-content:space-around;
+}
+
+.bioText {
+display: grid;
+grid-template-columns: 66%;
+grid-template-rows: 33% 33% 33%;
+padding-top: 100px;
+padding-left: 100px;
+height: 350px
+}
+
+.bodyText{
+font-family: sans-serif,"Arial";}
+
+
+.profilePicture {
+position: relative;
+padding-top: 50px;
+padding-right: 300px;
+padding-bottom: 600px;
+margin-top: 30px
+}
+
+.profilePicture img {
+position: absolute;
+z-index: 10;
+width: 300px;
+top: 0;
+}
+
+.profilePicture .blueBackground {
+position: absolute;
+background-color: #cfe2f3;
+width: 300px;
+height: 450px;
+top: 52px;
+left: 48px;
+}
+
+footer img{
+width: 25px;
+padding: 10px;
+}
+
+footer {
+display: grid;
+grid-template-rows: 20% 20% 20% 20% 20%
+}
+
+.phone, .email {
+display: flex;
+align-items:baseline;
+height: 1px;
+
+}
+
+.contact {
+height: 150px;
+}
