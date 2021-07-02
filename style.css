@@ -2,6 +2,26 @@
 font-family: sans-serif,"Arial";
 }
 
+p {
+font-family: sans-serif, "Arial";
+}
+
+li {
+font-family: sans-serif, "Arial";
+}
+
+h1 {
+font-family: sans-serif, "Arial";
+}
+
+h2 {
+font-family: sans-serif, "Arial";
+}
+
+h3 {
+font-family: sans-serif, "Arial";
+}
+
 header {
 background-color: #CFE2F3;
 height: 50px;
@@ -9,6 +29,7 @@ height: 50px;
 
 .navigation {
 display:flex;
+flex-direction: row;
 list-style: none;
 width: 100%;
 justify-content:flex-end;
@@ -36,7 +57,7 @@ padding-left: 100px;
 height: 350px
 }
 
-.bodyText{
+.bodyText .studyBuddies{
 font-family: sans-serif,"Arial";}
 
 
@@ -83,4 +104,81 @@ height: 1px;
 
 .contact {
 height: 150px;
+}
+
+.studyBuddies img{
+position: absolute;
+z-index: 10;
+width: 600px;
+}
+
+.studyBuddies .studyBuddiesBlueBackground{
+position: absolute;
+background-color:#CFE2F3;
+width: 800px;
+height: 450px;
+left:100px;
+top: 850px;
+}
+
+.USDASite .USDASiteBlueBackground{
+position: absolute;
+background-color:#CFE2F3;
+width: 800px;
+height: 550px;
+left: 100px;
+top: 100px;
+display:grid;
+grid-template-columns: 600px 1fr ;
+grid-template-rows: 375px 1fr;
+}
+
+.right{
+grid-column-start: 2;
+}
+
+.bottom {
+grid-row-start: 2;
+display: flex;
+justify-content: space-around;
+grid-column-end: 3;
+grid-column-start: 1;
+}
+
+.USDAImageContainer {
+position: relative;
+height: 550px;
+width: 900px;
+}
+
+.nonprofitRedesign .nonprofitBlueBackground {
+position: absolute;
+background-color:#CFE2F3;
+width: 800px;
+height: 500px;
+left: 100px;
+top:2200px;
+}
+
+.USDASite img{
+position: absolute;
+z-index: 10;
+width: 600px;
+top: 0px
+}
+
+.nonprofitRedesign img{
+position: absolute;
+z-index: 10;
+width: 600px;
+top: 2100px
+}
+
+@media screen and (max-width: 600px){
+.navigation{
+flex-direction: column;
+display: flex;
+justify-content: center;
+
+}
 }
