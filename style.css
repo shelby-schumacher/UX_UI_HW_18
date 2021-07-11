@@ -119,7 +119,16 @@ width: 800px;
 height: 450px;
 left:100px;
 top: 850px;
+display: grid;
+grid-template-columns: 500px 1fr;
+grid-template-rows: 375px 1fr;
 }
+
+.StudyBuddiesImageContainer {
+    position: relative;
+    height: 550px;
+    width: 900px;
+    }
 
 .USDASite .USDASiteBlueBackground{
 position: absolute;
@@ -174,11 +183,24 @@ width: 600px;
 top: 2100px
 }
 
+.projectsFooter{
+display: grid;
+grid-template-rows: 2;
+}
+
+footer{
+padding-top: 1000px;
+}
+
 @media screen and (max-width: 600px){
 .navigation{
 flex-direction: column;
 display: flex;
-justify-content: center;
+align-items:center;
 
 }
 }
+
+@media screen and (max-width: 600px){header{
+height: 120px
+}}
