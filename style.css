@@ -49,12 +49,12 @@ justify-content:space-around;
 }
 
 .bioText {
-display: grid;
-grid-template-columns: 66%;
-grid-template-rows: 33% 33% 33%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 padding-top: 100px;
 padding-left: 100px;
-height: 350px
+max-width: 700px
 }
 
 .bodyText .studyBuddies{
@@ -189,14 +189,17 @@ padding-top: 1000px;
 }
 
 @media screen and (max-width: 600px){
-.navigation{
+.navigation {
 flex-direction: column;
 display: flex;
 align-items:center;
 
 }
+.bioText
 }
 
 @media screen and (max-width: 600px){header{
 height: 120px
 }}
+
+
