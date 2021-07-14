@@ -183,10 +183,6 @@ width: 600px;
 top: 2100px
 }
 
-.projectsFooter{
-display: grid;
-grid-template-rows: 2;
-}
 
 footer{
 padding-top: 1000px;
